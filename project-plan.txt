@@ -1,0 +1,15 @@
+Dynamic Blog Website Plan
+Index.html (Homepage)
+Uses JavaScript to load blog post data from local storage and display as a list
+
+Links to Post(post.html) page (where we can view/edit post)
+Linked to  JavaScript where we can post data from local storage based on the post id passed into the url
+Has an edit button for users to modify title and content and save back to local storage
+Has a delete button for users to remove post from local storage
+Has link to homepage and new posts page
+
+Links to New Posts(new-post.html) page (where we can create post)
+Linked to  JavaScript where we can save the new blog post to local storage
+Has link to homepage and post page
+
+JavaScript will handle CRUD operations
