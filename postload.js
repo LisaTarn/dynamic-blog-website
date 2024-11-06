@@ -1,7 +1,7 @@
 window.addEventListener("load", loadBlog); 
 const editButton = document.getElementById("edit-btn"); //setting up edit button
 
-editButtonButton.addEventListener ("click", editBlog); //adding event listener so input will edit local storage
+editButton.addEventListener ("click", editBlog); //adding event listener so input will edit local storage
 
 const deleteButton = document.getElementById("delete-btn");
 
