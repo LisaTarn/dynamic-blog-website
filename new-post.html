@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="new-postload.js" defer></script>
+</head>
+<body>
+    <header>
+    <h1>Welcome, Blogger!</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="post.html">View/Edit Posts</a></li>
+        </ul>
+    </nav></header>
+    <form id="blogform">
+    <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="blog-post">Content:</label>
+        <input type="text" id="blog-post" name="blog-post" required><br><br>
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/png, image/jpeg" /><br><br>
+<button id="save-btn">Save Blog Post</button><br><br>
+</form>
+<footer><p>&copy; 2024 Dynamic Blog</p></footer>
+    </body>
+</html>
